@@ -1,0 +1,66 @@
+#Calculadora com calculos simples#
+#potencia x ** y
+
+print("-------- Calculadora-------\n\n Métodos:\n1- Soma\n2-Suhtracão\n3- Divisão\n4-Multiplicacão\n5-Potência\n6-Raiz Quadrads \n Digite o Méoodo que deseja realizar:")
+
+
+
+Escolha = int(input(" "))
+
+def Soma():
+x = float(input("Escreva o x: "))
+y = float(input("Escreva o y: "))
+resultadoSoma = ((x) + (y))
+print(&Y"Resultado da soma: "resultadoSoma)
+
+def Subtracao():
+x = float(input("Escreva o x: "))
+y = float(input("Escreva o y: "))
+resultadoSubtracao = ((x) - (y))
+print(&Y"Resultado da subtração: "resultadoSubtracao)
+
+def Divisao():
+x = float(input("Escreva o x: "))
+y = float(input("Escreva o y: "))
+resultadoDivisao = ((x) / (y))
+print(&Y"Resultado da divisão: "resultadoDivisao)
+
+
+def Multiplicacao
+x = float(input("Escreva o x: "))
+y = float(input("Escreva o y: "))
+resultadoMultiplicacao = ((x) / (y))
+print(&Y"Resultado da divisão: "resultadoMultiplicacao)
+
+def Potencia():
+x = float(input("Escreva o x: ))
+y = float(input("Escreva o y: ))
+resultadoPotencia = ((x) ** (y))
+print(Resultado da potencia: "resultadoPotencia)
+
+#Raiz
+#
+
+
+#Escolha loop
+if Escolha == 1:
+Soma():
+
+else Escolha == 2:
+Subtracao():
+
+else Escolha == 3:
+Divisao():
+
+else Escolha == 4:
+Multiplicacao():
+
+else Escolha == 5:
+Potencia():
+
+else Escolha == 6:
+Raiz():
+
+
+elif Escolha != int:
+end
